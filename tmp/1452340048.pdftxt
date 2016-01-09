@@ -1,0 +1,833 @@
+BAB I
+PENDAHULUAN
+1.1
+
+Latar Belakang
+Sistem informasi adalah suatu cara yang terorganisir mengumpulkan,
+
+memasukan dan memproses data, mengendalikan, dan menghasilkan informasi
+dengan berbasis proses manual atau komputer untuk mencapai sasaran dan tujuan
+organisasi. Bagi para pelaku usaha lapangan futsal, informasinya masih dilakukan
+dengan cara memberikan informasi dari satu orang ke orang lain, karena banyak
+pemilik usaha berskala kecil ke menengah merasa bahwa untuk ukuran bisnisnya
+yang mereka miliki, informasi secara online belum diperlukan. Ditambah dengan
+biaya pembuatan software dan keadaan staf yang tidak biasa menggunakan
+komputer.
+Sebenarnya banyak kendala yang dihadapi oleh para pemilik usaha
+lapangan futsal sendiri khususnya daerah Semarang. Bagaimana memberikan
+informasi ketersediaan lapangan futsal secara up to date. Masalah pemesanan
+tempat juga merupakan suatu yang sangat penting. Sehingga dibutuhkan suatu
+sistem informasi ketersediaan lapangan futsal yang dapat memberikan penyaluran
+informasi secara tepat dan memberikan kemudahan bagi pelanggan untuk dapat
+mencari informasi lokasi yang dibutuhkannya.
+Oleh karena itu, penulis memilih topik sistem informasi ketersediaan
+lapangan futsal daerah Semarang, dimana sistem ini digunakan sebagai pemasaran
+bagi pemilik usaha dibidang ketersediaan lapangan futsal khususnya daerah
+Semarang. Sistem ini dibangun dengan menggunakan aplikasi basis data yang
+diintegrasikan dengan tampilan berbasis web untuk menyediakan informasi yang
+dibutuhkan secara online sehingga pelanggan yang ingin mengetahui informasi
+ketersediaan lapangan futsal dapat melakukannya kapan saja dan dimana saja
+asalkan terhubung dengan internet.
+
+1.2
+
+Perumusan Masalah
+Dalam perumusan masalah dapat di identifikasikan masalah yang dihadapi
+
+saat ini adalah sebagai berikut:
+1. Bagaimana membangun sistem informasi ketersediaan lapangan futsal
+daerah Semarang dengan memanfaatkan teknologi internet sebagai alat
+pemetaan dan informasi agar lebih menarik perhatian.
+2. Bagaimana memberitahukan jadwal pemakaian lapangan yang terpakai
+dan yang tidak terpakai.
+3. Bagaimana memberikan kepercayaan kepada admin untuk mengelola
+sistem tersebut.
+1.3
+
+Pembatasan Masalah
+Untuk mengidentifikasi permasalahan dan menghindari terjadinya pelebaran
+
+masalah yang akan diuraikan dalam penulisan tugas akhir agar sesuai dengan
+judul yang sajikan, maka dalam membatasi pembahasan mengenai Sistem
+Informasi Ketersediaan Lapangan Futsal Daerah Semarang yang meliputi :
+1. Sistem menggunakan aplikasi desktop sederhana untuk melengkapi
+sistem dalam update database ketersediaan lapangan futsal daerah
+Semarang.
+2. Peta tidak dapat menggambarkan rute secara detail ke lokasi lapangan
+futsal.
+3. Sistem dibangun dengan menggunakan Microsoft Visual Studio 2008 dan
+data base SQL server 2005.
+4. Sistem memiliki keamanan yang dibutuhkan pengguna, yaitu username
+dan password untuk admin.
+5. Sistem hanya mampu memberikan informasi letak lokasi, harga sewa,
+jadwal lapangan yang terpakai dan member.
+
+1.4
+
+Tujuan
+Adapun tujuan program adalah sebagai berikut :
+1. Untuk memperoleh pengalaman antara teori yang telah diperoleh pada
+waktu perkuliahan dengan praktek yang terjadi di lapangan.
+
+2. Untuk memberitahukan kepada para masyarakat tentang jadwal
+lapangan futsal yang kosong.
+3. Memanfaatkan teknologi internet sebagai alat pemetaan informasi dari
+lokasi penyewaan tersebut.
+Adapun tujuan dari perancangan sistem informasi tersebut adalah:
+1. Membuat sistem informasi ketersediaan lapangan futsal daerah
+Semarang dan pembuatan laporan menjadi sistem terkomputerisasi yang
+berbasis web.
+2. Diharapkan sistem informasi ketersediaan lapangan futsal daerah
+Semarang berbasis web yang dibuat dapat meningkatkan ketertarikan
+masyarakat untuk hidup sehat melalui sepak bola.
+3. Memanfaatkan teknologi internet sebagai alat pemetaan pencarian
+lapangan futsal yang tidak digunakan.
+1.5
+
+Metode Penelitian
+Dalam proposal ini metode yang dilakukan adalah memaparkan segala
+
+sesuatu yang seobjektif atau seakurat mungkin berdasarkan data yang diperoleh.
+Untuk memperoleh data-data antara lain :
+1. Metode Observasi
+Metode ini mengumpulkan data-data tentang bagaimana masyarakat
+mengetahui penuh dan tidaknya jadwal dari lapangan futsal yang akan
+disewakan dengan cara datang langsung ketempat yang akan disewa
+ataupun secara via telpon.
+2. Metode Perancangan dan pembuatan
+Yaitu perencanaan dan perancangan sistem dan penyusunan letak dari
+struktur komponen yang digunakan, agar dapat menghasilkan suatu
+rangkaian dengan kerja yang optimal. Atau kerangka sistem yang
+digabungkan secara global dimana pengembangan itu adalah berdasarkan
+model sistem input, output, Database, dan pengendalian sistem (Henry C.
+Lucas, 1995).
+3. Metode Percobaan dan pengujian
+
+Metode ini sangat membantu dalam pembuatan sistem yang valid dan
+handal. Meliputi pengetesan sistem dan pengujian kinerja dari sistem
+sehingga dapat di pertanggung jawabkan.
+4. Analisis
+Yaitu dengan melakukan pengamatan hasil pengujian dengan keadaan
+sebenarnya serta mencari solusi penyelesaiannya terhadap masalah yang
+mungkin terjadi dengan software agar memiliki ”error ” yang kecil.
+1.6
+
+Manfaat
+Manfaat yang di dapatkan dengan adanya sistem informasi
+ketersediaan lapangan futsal yang
+
+berbasis web ini diharapkan dapat
+
+memberikan manfaat bagi pengguna, pelaku usaha dan pembuatnya
+diantaranya :
+1.
+
+Bagi User
+1. Diberikan kemudahan dalam mencari informasi dari tempat yang
+2.
+3.
+
+telah disediakan sesuai dengan kebutuhan.
+Informasi yang diberikan selalu up to date.
+Diberikan kemudahan dalam mencari lokasi yang dipakai dan tidak
+dipakainya lapangan yang disediakan oleh pelaku usaha.
+
+2. Bagi Owner
+1. Dengan adanya sistem informasi ini dapat memberikan efek positif
+2.
+
+bagi perkembangan sarana informasi dari usaha yang di jalaninya.
+Dapat digunakan sebagai sarana promosi bagi para pelaku usaha
+untuk memberikan hal yang positif bagi masyarakat, untuk
+menjaga kesehatan dengan melakukan olah raga dengan cara
+
+3.
+
+bermain sepak bola.
+Memberikan
+kemudahan
+
+bagi
+
+para
+
+pengguna
+
+untuk
+
+memberitahukan dipakai dan tidak dipakainya lapangan yang
+4.
+3.
+
+disediakan.
+Kemudahan dalam laporan.
+
+Bagi Admin
+
+1.
+
+Memberikan kemudahan informasi bagi para pengguna dan bagi
+
+2.
+
+para pelaku usaha.
+Dapat digunakan juga sebagai sarana promosi bagi para pelaku
+
+3.
+
+usaha.
+Ilmu pengetahuan yang di dapat bisa di manfaatkan dengan cara
+membangun suatu sistem informasi ketersediaan lapangan futsal
+
+4.
+
+1.7
+
+daerah Semarang yang berbasis web.
+Memberikan kemudahan dalam arsip.
+
+Sistematika Penulisan
+Sistematika penulisan dari buku tugas akhir ini adalah sebagai berikut:
+BAB I PENDAHULUAN
+Berisi tentang latar belakang, tujuan, rumusan masalah, batasan
+masalah, metodologi, dan sistematika penulisan yang digunakan.
+BAB II DASAR TEORI
+Membahas tentang teori-teori yang digunakan dalam penyelesaian
+tugas akhir ini, antara lain penjelasan dan teori mengenai Visual Studio 2008
+Profesional Edition, SQL Server 2005 Express Edition, ASP.Net MVC,
+DXperience 8.1.4, .Net Framework 3.5, Adobe Flash.
+BAB III PERANCANGAN SISTEM
+Bab ini berisi penjelasan mengenai model dan rancangan aplikasi
+SIG yang akan dibuat pada tugas akhir ini. Bab ini juga berisi uraian data
+
+yang dipakai dalam aplikasi. Untuk memperjelas pemodelan aplikasi, akan
+disajikan juga Paper Prototype dari aplikasi ini.
+BAB IV PENGUJIAN SISTEM DAN ANALISA
+Bab ini berisi hasil-hasil perancangan dan pengujian aplikasi serta
+implementasinya dalam kondisi nyata.
+BAB V KESIMPULAN DAN SARAN
+Bab ini berisi poin-poin penting dari hasil analisa, pengujian dan
+implementasi aplikasi. Saran akan berisikan saran penulis berdasarkan
+pengalaman mulai dari awal perancangan hingga akhir pengembangan
+aplikasi.
+
+BAB II
+LANDASAN TEORI
+2.1
+2.1.1
+
+Sistem Informasi Geografis (SIG)
+Pengertian Sistem Informasi Geografis (SIG)
+Sistem Informasi Geospasial atau juga dikenal sebagai Sistem Informasi
+
+Geografis (SIG) mulai dikenal pada awal tahun 1980-an. SIG adalah suatu sistem
+untuk memperoleh, menyimpan, menganalisa dan mengelola data spasial beserta
+data atribut terkait yang secara keruangan direferensikan pada bumi. Sistem
+Informasi Georafis atau Georaphic Information Sistem (GIS) juga merupakan
+suatu sistem informasi yang berbasis komputer, dirancang untuk bekerja dengan
+menggunakan data yang memiliki informasi spasial (bereferensi keruangan).
+Sistem
+
+ini
+
+mengcapture,
+
+mengecek,
+
+mengintegrasikan,
+
+memanipulasi,
+
+menganalisa, dan menampilkan data yang secara spasial mereferensikan kepada
+
+kondisi bumi. Teknologi SIG mengintegrasikan operasi-operasi umum database,
+seperti query dan analisa statistik, dengan kemampuan visualisasi dan analisa
+yang unik yang dimiliki oleh pemetaan. Kemampuan inilah yang membedakan
+SIG dengan Sistem Informasi lainya yang membuatnya menjadi berguna berbagai
+kalangan untuk menjelaskan kejadian, merencanakan strategi, dan memprediksi
+apa yang terjadi.
+Dangermond1(1992) mendefinisikan SIG sebagai kumpulan yang
+terorganisir dari perangkat keras komputer, perangkat lunak, data geografi dan
+personil
+
+yang
+
+didisain
+
+untuk
+
+memperoleh,
+
+menyimpan,
+
+memperbaiki,
+
+memanipulasi, menganalisis dan menampilkan semua bentuk informasi yang
+bereferensi geografi. Sedangkan menurut Aronoff2, (1989) SIG adalah
+serangkaian prosedur baik dengan komputer maupun manual yang digunakan
+untuk menyimpan dan memanipulasi data bereferensi geografis atau data
+geospasial.
+Pengertian SIG dapat beragam tetapi mempunyai satu kesamaan, yaitu
+bahwa SIG adalah suatu sistem yang berkaitan dengan informasi geografis
+(Maguire, 1991 dalam Subaryono 2005). Dalam arti yang lebih sempit, SIG
+merupakan suatu sistem berbasis komputer yang digunakan untuk menyimpan dan
+menganalisis obyek-obyek dan fenomena-fenomena dengan lokasi geografis
+merupakan karakteristik yang penting untuk dianalisis.
+Disamping itu, SIG juga dapat menggabungkan data, mengatur data dan
+melakukan analisis data yang akhirnya akan menghasilkan keluaran yang dapat
+dijadikan acuan dalam pengambilan keputusan pada masalah yang berhubungan
+dengan geografi.
+2.1.2 Perancangan dan Aplikasi Sistem Informasi Geografis
+Untuk dapat beroperasi SIG membutuhkan perangkat keras (hardware),
+perangkat lunak (software) dan juga manusia yang mengoperasikannya
+(brainware).
+Secara rinci SIG tersebut agar dapat beroperasi membutuhkan komponenkomponen sebagai berikut:
+
+
+
+
+
+
+
+Orang
+Aplikasi
+Data
+Software
+Hardware
+
+: Yang menjalankan sistem.
+: Prosedur-prosedur yang digunakan untuk mengolah data.
+: Informasi yang dibutuhkan dan diolah dalam aplikasi.
+: Perangkat lunak SIG.
+: Perangkat keras yang dibutuhkan untuk menjalankan
+
+sistem.
+Tahap-tahap dalam membuat SIG meliputi :
+a. Data Acquisition
+
+: Proses identifikasi dan pengumpulan data
+
+yang diperlukan dalam aplikasi.
+b. Pre-processing
+: Konversi format data dan identifikasi
+lokasi obyek pada data aslinya secara sistematis.
+c. Data Management
+: Metode yang konsisten untuk pemasukan
+data, pengubahan data, dan pemanggilan kembali.
+d. Manipulation dan Analysis : Operasi-operasi analitis yang menggunakan
+database SIG untuk menghasilkan informasi baru.
+e. Product Generation
+: Produksi output akhir dari SIG.
+Ada tiga jenis fitur geografis, yaitu point/titik, line/garis, dan polygon/luasan.
+Point/titik adalah lokasi diskrit yang biasanya digambarkan sebagai symbol atau
+label. Point biasanya juga digunakan untuk menggambarkan lokasi yang tidak
+mempunyai luasan seperti titik tinggi atau puncak gunung. Line atau arc/garis
+adalah fitur yang dibentuk oleh sekumpulan koordinat yang saling berhubungan.
+Point menggambarkan fitur linier di peta yang terlalu sempit untuk digambarkan
+sebagai luasan seperti sungai, jalan, garis kontur dll. Polygon/luasan (area) adalah
+fitur yang dibentuk dari garis yang tertutup menggambarkan suatu area yang
+homogen seperti batas negara, kecamatan, danau dll.
+Data yang digunakan dalam SIG adalah data geografis. Data geografis
+adalah data yang menjelaskan obyek-obyek yang dapat dikaitkan dengan lokasi
+geografis. Data geografis meliputi data spatial dan data atribut. Data spatial
+merupakan data yang berkaitan dengan lokasi, bentuk dan hubungan dengan
+obyek-obyek lainnya di permukaan bumi sehingga disebut juga data geospasial
+(geo=bumi). Sumber data untuk SIG diantaranya peta topografi, peta tematik, foto
+
+udara, Citra satelit, data statistic, data pengukuran GPS, survei dan pemetaan
+langsung di lapangan.
+2.1.3 Karakteristik Sistem Informasi
+Sebuah sistem terdapat dari bagian-bagian yang saling berkaitan yang
+beroperasi bersama untuk mencapai sasaran. Sebuah sistem bukanlah seperangkat
+unsur yang tersusun secara teratur tetapi terdiri dari unsur yang dapat dikenal
+sebagai saling melengkapi karena satu maksud, tujuan atau sasaran.
+Sistem fisik lebih sekedar dari bentuk konseptual karena dapat
+memperhatikan kegiatan atau perilaku. Sistem ini mempergunakan perangkat
+keras (hardware) dan perangkat lunak (software) komputer, prosedur, pedoman,
+model, manajemen dan keputusan sebuah data base. Definisi ini menitikberatkan
+pada adanya sistem yang terpadu antara manusia dan mesin-mesin yang
+digunakan untuk mengolah data sehingga menghasilkan suatu informasi.
+Suatu sistem terdiri dari subsistem yang masing-masing dibatasi oleh sistem
+dimana masing-masing subsistem dalam satu sistem saling berkaitan atau
+berinteraksi. Sedangkan subsistem itu sendiri adalah suatu sistem yang sederhana
+yang terdapat dalam sebuah sistem yang besar. Oleh karena itu, dapat diartikan
+bahwa suatu sistem terdapat beberapa level. Sedangkan super sistem adalah sistem
+yang terdiri dari beberapa sistem besar.
+Subsistem sebenarnya hanyalah sistem di dalam suatu sistem, sebagai
+contoh, pesawat terbang adalah suatu sistem yang terdiri dari sistem-sistem
+bawahan seperti mesin, sistem badan pesawat dan sistem rangka. Masing-masing
+sistem ini terdiri dari sistem tingkat yang lebih rendah lagi, misal sistem mesin
+adalah kombinasi dari sistem karburator, sistem bahan bakar dan seterusnya.
+Istilah subsistem digunakan untuk memudahkan analisis dan pengkomunikasian.
+Berikut ini adalah karakter atau sifat-sifat tertentu yang dimiliki oleh
+sistem :
+ Mempunyai komponen (component).
+Suatu sistem mempunyai sejumlah komponen yang saling berinteraksi
+dan bekerjasama untuk membentuk suatu kesatuan. Setiap komponen
+
+mempunyai sifat-sifat dari sistem untuk menjalankan suatu fungsi tertentu
+
+
+
+dan mempengaruhi proses sistem secara keseluruhan.
+Batas sistem (boundary).
+Batas sistem merupakan daerah yang membatasi antara suatu sistem dengan
+sistem lainya.
+
+
+
+Penghubung sistem (interface).
+Penghubung merupakan media antara subsistem dengan subsistem lainnya.
+Penghubung memungkinkan sumber-sumber daya mengikat dari satu
+subsistem ke subsistem lainya, dan juga subsistem -subsistem tersebut dapat
+berintegrasi membentuk satu kesatuan.
+
+
+
+Masukan sistem (input).
+Sesuatu yang dimasukan ke dalam sistem yang berasal dari lingkungan.
+
+
+
+Keluaran sistem (output).
+Suatu hasil dari proses pengolahan sistem yang dikeluarkan ke lingkungan.
+
+
+
+Pengolahan sistem (proces).
+Suatu sistem dapat mempunyai suatu bagian pengolahan yang akan
+mengubah masukan menjadi keluaran.
+
+
+
+Lingkungan luar sistem (environments)
+Segala sesuatu di luar batas suatu sistem yang mempengaruhi kerja sistem.
+
+
+
+Sasaran suatu tujuan (goal)
+Setiap sistem mempunyai tujun. Suatu sistem dikatakan berhasil jika
+mengenai sasaran atau tujuan (goal).
+
+Gambar 2.1 Karakteristik Sistem
+
+2.1.4 Pemasukan Data Dalam Sistem Informasi Geografis
+Dalam pemasukan data sistem informasi georgrafis, ada 4 proses
+penting dalam Sistem Informasi Geografi yaitu pemasukan data, manajemen data,
+manipulasi/analisis data dan keluaran data. Keempat proses tersebut harus
+dilakukan tahap demi tahap untuk menghasilkan output SIG yang baik. Proses
+pemasukkan data bisa melibatkan banyak hal baik hardware maupun softwarenya,
+begitu juga dengan proses manajemen data serta output datanya. Akan tetapi
+untuk proses analisis dan manipulasi data, dalam hal ini gabungan data atribut dan
+data spasial maka hanya program-program GIS yang bisa melakukannya.
+Software-software SIG juga kadang diseting untuk bisa melakukan keempat
+proses-proses tersebut, misalnya software ArcView GIS.
+Untuk seseorang yang baru mengetahui SIG, proses pemasukkan data
+bisanya merupakan proses yang sangat ruwet, kadang proses pemasukkan data
+dipelajari lebih belakangan dibandingkan dengan proses-proses yang lainnya.
+Karena memang saat ini sudah banyak sekali data-data peta digital (bentuk vektor
+dan grid) yang beredar, sehingga untuk menghasilkan otuput GIS yang baik tidak
+perlu lagi melakukan proses pemasukkan data (merubah peta hardcopy menjadi
+softcopy).
+
+Akan tetapi proses ini sangatlah penting. Karena tidak akan ada peta digital
+seandainya tidak ada proses pemasukkan data. Menurut Lukman (1993)
+pemasukan data merupakan proses pemasukan data pada komputer dari peta (peta
+topografi dan peta tematik), data statistik, data hasil analisis penginderaan jauh,
+data hasil pengolahan citra digital penginderaan jauh, dan lain-lain. Data-data
+spasial dan atribut baik dalam bentuk analog maupun data digital tersebut
+dikonversikan kedalam format yang diminta oleh perangkat lunak sehingga
+terbentuk basisdata (database). Basisdata adalah pengorganisasian data yang tidak
+berlebihan
+
+dalam
+
+komputer
+
+sehingga
+
+dapat
+
+dilakukan
+
+pengembangan,
+
+pembaharuan, pemanggilan, dan dapat digunakan secara bersama oleh pengguna
+(Anon, 2003).
+Data merupakan bahasa mathematical dan simbol-simbol pengganti lain
+yang disepakati oleh umum dalam menggambarkan objek, manusia, peristiwa,
+aktivitas, konsep dan objek-objek penting lainya., data merupakan suatu
+kenyataan apa adanya (raw facts). Sedangkan informasi adalah data yang
+ditempatkan pada konteks yang penuh arti oleh penerimanya ( John, 1983 dalam
+Prahasta, 2002).
+
+Pengolahan,
+Pemrosesan,
+Konversi dll
+
+Data
+
+Informasi
+
+Gambar 2.2. Hubungan Data dan Informasi
+
+( John, 1983 dalam Prahasta, 2002).
+Davenport dan Prusak (1998 dalam Setiarso 2006) membedakan data dan
+informasi sebagai berikut:
+Data is a set of discrete objective facts abaout events. Sebagai contoh bila
+seorang pelanggan datang untuk membeli buah jeruk di sebuah supermarket
+makan transaksi yang terjadi dapat digambarkan sebagian oleh, yaitu berapa uang
+
+yang harus dibayarkan, berapa kilogram jeruk yang dibeli, namun tidak
+menjelaskan mengapa pelanggan itu datang ke supermarket, kualitas pelayanaan
+supermarket dan sebagainya. Dalam organisasi, data terdapat dalam catatancatatan (record) atau transaksi.
+Information is data that makes a difference. Kata inform sejatinya adalah
+berarti memberi bentuk, dan informasi ditujukan untuk membentuk orang yang
+mendapatkannya, yaitu untuk membuat agar pandangan atau wawasan orang
+tersebut berbeda (dibandingkan sebelum memperoleh informasi). Sebagai contoh
+pelanggan membeli jeruk lokal bukan jeruk import, pernyataan tersebut
+merupakan informasi.
+Data merupakan bahan mentah, untuk menjadi informasi data harus terlebih
+dahulu diolah melalui suatu model. Model yang digunakan untuk mengolah data
+disebut model pengolahan data atau dikenal dengan siklus pengolahan data.
+INPUT
+
+DATA
+
+PROSES (MODEL)
+
+HASIL TINDAKAN
+
+KEPUTUSAN
+TINDAKAN
+
+OUTPUT
+
+PENERIMA
+
+Gambar 2.3. Model Pengolahan Data
+
+Barry E. Cusing (983, dalam Riasetiawan, 2007) mendefinisikan sistem
+informasi sebagai : An organized means of colleting, entering and processing
+data, and of storing, managing, controllingm and reporting information so that an
+organization can achieve its objectives and goal.
+Sementara itu Gelinas, Oram dan Wiggins (1990 dalam Riasetiawan ,2007)
+mendefinisikan sistem informasi sebagai: A man made system that generally
+consists of an integrated set of computerbased and manual components establish
+to collect, store , and manage data, and to provide output information to users.
+Dari definisi-definisi diatas dapat ditarik kesimpulan bahwa sistem
+informasi adalah suatu cara yang terorganisir mengumpulkan, memasukan dan
+
+memproses data, mengendalikan, dan menghasilkan informasi dengan berbasis
+proses manual atau Komputer untuk mencapai sasaran dan tujuan organisasi.
+Keberhasilan suatu sistem informasi yang diukur berdasarkan maksud
+pembuatannya, bergantung pada tiga faktor utama yaitu: keserasian dan mutu
+data, pengorganisasian data dan tata cara penggunaannya ( Cook, 1977 dalam
+Notohadiprawiro, 2006).
+Struktur dan cara kerja sistem informasi berbeda beda bergantung pada
+macam keperluan atau macam permintaan yang harus dipenuhi. Diantara berbagai
+sistem informasi jelas terdapat banyak perbedaan akan tetapi ada suatu persamaan
+yang menonjol yaitu semua sistem informasi menggabungkan berbagai ragam
+data yang dikumpulkan dari berbagai sumber (Coppock dan Anderson, 1987,
+dalam Notohadiprawiro,2006).
+2.2
+
+Microsoft Visual Studio 2008
+Microsoft Visual Studio 2008 merupakan sebuah perangkat lunak lengkap
+
+(suite) yang dapat digunakan untuk melakukan pengembangan aplikasi, baik itu
+aplikasi bisnis, aplikasi personal, ataupun komponen aplikasinya, dalam bentuk
+aplikasi console, aplikasi Windows, ataupun aplikasi Web. Visual Studio
+mencakup kompiler, SDK, Integrated Development Environment (IDE), dan
+dokumentasi (umumnya berupa MSDN Library). Kompiler yang dimasukkan ke
+dalam paket Visual Studio antara lain Visual C++, Visual C#, Visual Basic, Visual
+Basic .NET, Visual InterDev, Visual J++, Visual J#, Visual FoxPro, dan Visual
+SourceSafe.
+Microsoft Visual Studio dapat digunakan untuk mengembangkan aplikasi
+dalam native code (dalam bentuk bahasa mesin yang berjalan di atas Windows)
+ataupun managed code (dalam bentuk Microsoft Intermediate Language di atas
+.NET Framework). Selain itu, Visual Studio juga dapat digunakan untuk
+mengembangkan aplikasi Silverlight, aplikasi Windows Mobile (yang berjalan di
+atas .NET Compact Framework).
+
+Visual Studio kini telah menginjak versi Visual Studio 9.0.21022.08, atau
+dikenal dengan sebutan Microsoft Visual Studio 2008 yang diluncurkan pada 19
+November 2007, yang ditujukan untuk platform Microsoft .NET Framework 3.5.
+Versi sebelumnya, Visual Studio 2005 ditujukan untuk platform .NET Framework
+2.0 dan 3.0. Visual Studio 2003 ditujukan untuk .NET Framework 1.1, dan Visual
+Studio 2002 ditujukan untuk .NET Framework 1.0. Versi-versi tersebut di atas kini
+dikenal dengan sebutan Visual Studio .NET, karena memang membutuhkan
+Microsoft .NET Framework. Sementara itu, sebelum muncul Visual Studio .NET,
+terdapat Microsoft Visual Studio 6.0 (VS1998).
+
+2.3
+
+C#
+C# (dibaca: C sharp) merupakan sebuah bahasa pemrograman yang
+
+berorientasi objek yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif
+kerangka .NET Framework. Bahasa pemrograman ini dibuat berbasiskan bahasa
+C++ yang telah dipengaruhi oleh aspek-aspek ataupun fitur bahasa yang terdapat
+pada bahasa-bahasa pemrograman lainnya seperti Java, Delphi, Visual Basic, dan
+lain-lain) dengan beberapa penyederhanaan. Menurut standar ECMA-334 C#
+Language Specification, nama C# terdiri atas sebuah huruf Latin C (U+0043)
+yang diikuti oleh tanda pagar yang menandakan angka # (U+0023). Tanda pagar #
+yang digunakan memang bukan tanda kres dalam seni musik (U+266F), dan tanda
+pagar # (U+0023) tersebut digunakan karena karakter kres dalam seni musik tidak
+terdapat di dalam keyboard standar.
+Standar
+
+European
+
+Computer
+
+Manufacturer
+
+Association
+
+(ECMA)
+
+mendaftarkan beberapa tujuan desain dari bahasa pemrograman C#, sebagai
+berikut:
+ Bahasa pemrograman C# dibuat sebagai bahasa pemrograman yang
+bersifat bahasa pemrograman general-purpose (untuk tujuan jamak),
+berorientasi objek, modern, dan sederhana.
+
+ Bahasa
+
+pemrograman
+
+C#
+
+ditujukan
+
+untuk
+
+digunakan
+
+dalam
+
+mengembangkan komponen perangkat lunak yang mampu mengambil
+keuntungan dari lingkungan terdistribusi.
+ Portabilitas programmer sangatlah penting, khususnya bagi programmer
+yang telah lama menggunakan bahasa pemrograman C dan C++.
+ Dukungan untuk internasionalisasi (multi-language) juga sangat penting.
+ C# ditujukan agar cocok digunakan untuk menulis program aplikasi baik
+dalam sistem klien server (hosted system) maupun sistem embedded
+(embedded system), mulai dari perangkat lunak yang sangat besar yang
+menggunakan sistem informasi yang canggih hingga kepada perangkat
+lunak yang sangat kecil yang memiliki fungsi-fungsi terdedikasi.
+ Meskipun aplikasi C# ditujukan agar bersifat 'ekonomis' dalam hal
+kebutuhan pemrosesan dan memori komputer, bahasa C# tidak ditujukan
+untuk bersaing secara langsung dengan kinerja dan ukuran perangkat
+lunak yang dibuat dengan menggunakan bahasa pemrograman C dan
+bahasa rakitan.
+ Bahasa C# harus mencakup pengecekan jenis (type checking) yang kuat,
+pengecekan larik (array), pendeteksian terhadap percobaan terhadap
+penggunaan variabel-variabel yang belum diinisialisasikan, portabilitas
+kode sumber, dan pengumpulan sampah (garbage collection) secara
+otomatis.
+2.4
+
+.Net Framework
+Microsoft .NET Framework (dibaca Microsoft Dot Net Framework) adalah
+
+sebuah komponen yang dapat ditambahkan ke sistem operasi Microsoft Windows
+atau telah terintegrasi ke dalam Windows (mulai dari Windows Server 2003 dan
+versi-versi Windows terbaru). Kerangka kerja ini menyediakan sejumlah besar
+
+solusi-solusi program untuk memenuhi kebutuhan-kebutuhan umum suatu
+program baru, dan mengatur eksekusi program-program yang ditulis secara
+khusus untuk framework ini. .NET Framework adalah kunci penawaran utama
+dari Microsoft, dan dimaksudkan untuk digunakan oleh sebagian besar aplikasiaplikasi baru yang dibuat untuk platform Windows.
+Pada dasarnya .NET Framework memiliki dua komponen utama, yaitu CLR
+dan .NET Framework Class Library. Program - program yang ditulis untuk .NET
+Framework dijalankan pada suatu lingkungan software yang mengatur
+persyaratan-persyaratan runtime program. Runtime environment ini, yang juga
+merupakan suatu bagian dari .NET Framework, dikenal sebagai Common
+Language Runtime (CLR). CLR menyediakan penampilan dari application virtual
+machine, sehingga para programmer tidak perlu mengetahui kemampuan CPU
+tertentu yang akan menjalankan program. CLR juga menyediakan layananlayanan penting lainnya seperti jaminan keamanan, pengaturan memori, garbage
+collection dan exception handling / penanganan kesalahan pada saat runtime.
+Class library dan CLR ini merupakan komponen inti dari .NET Framework.
+Kerangka kerja itu pun dibuat sedemikian rupa agar para programmer dapat
+mengembangkan program komputer dengan jauh lebih mudah, dan juga untuk
+mengurangi kerawanan aplikasi dan juga komputer dari beberapa ancaman
+keamanan.
+CLR adalah turunan dari CLI (Common Language Infrastructure) yang saat
+ini merupakan standar ECMA. Untuk keterangan lebih lanjut, silakan
+mengunjungi situs ECMA atau kunjungi sumber pranala di bawah artikel ini.
+Solusi-solusi program pembentuk class library dari .NET Framework
+mengcover area yang luas dari kebutuhan program pada bidang user interface,
+pengaksesan data, koneksi basis data, kriptografi, pembuatan aplikasi berbasis
+web, algoritma numerik, dan komunikasi jaringan. Fungsi-fungsi yang ada dalam
+class library dapat digabungkan oleh programmer dengan kodenya sendiri untuk
+membuat suatu program aplikasi baru.
+.NET seringkali juga dapat diartikan sebagai platform, yang merupakan
+suatu lingkungan terpadu untuk pengembangan dan eksekusi untuk berbagai
+
+macam bahasa pemrograman dan kumpulan library untuk bekerja sama membuat
+dan menjalankan aplikasi berbasis Windows yang lebih mudah untuk dibuat,
+diatur, didistribusikan, dan diintegrasikan dengan sistem jaringan lain.
+Dalam perkembangannya, .NET seringkali dikaitkan pula dengan versi
+Visual Studio yang sesuai dengan dukungan versi yang bersangkutan untuk
+pengembangan aplikasi. Berikut ini versi .NET dan versi Visual Studio yang
+terkait:
+ .NET 1.0 dan Visual Studio .NET (atau seringkali disebut juga dengan
+Visual Studio .NET 2002)
+ .NET 1.1 dan Visual Studio .NET 2003
+ .NET 2.0 dan Visual Studio 2005
+ .NET 3.0 dan Visual Studio 2005 dengan tambahan addin untuk WPF,
+WCF dan WF
+ .NET 3.5 dan Visual Studio 2008
+2.5
+
+Microsoft SQL Server 2005
+Microsoft SQL Server adalah sebuah sistem manajemen basis data
+
+relasional (RDBMS) produk Microsoft. Bahasa queri utamanya adalah TransactSQL yang merupakan implementasi dari SQL standar ANSI/ISO yang digunakan
+oleh Microsoft dan Sybase. Umumnya SQL Server digunakan di dunia bisnis yang
+memiliki basis data berskala kecil sampai dengan menengah, tetapi kemudian
+berkembang dengan digunakannya SQL Server pada basis data besar.
+Microsoft SQL Server dan Sybase/ASE dapat berkomunikasi lewat jaringan
+dengan menggunakan protokol TDS (Tabular Data Stream). Selain dari itu,
+Microsoft SQL Server juga mendukung ODBC (Open Database Connectivity),
+dan mempunyai driver JDBC untuk bahasa pemrograman Java. Fitur yang lain
+
+dari SQL Server ini adalah kemampuannya untuk membuat basis data mirroring
+dan clustering.
+2.8
+
+MVC (Model, View, Controller)
+Model-View-Controller atau MVC adalah sebuah metode untuk membuat
+
+sebuah aplikasi web dengan memisahkan data (Model) dari tampilan (View) dan
+cara bagaimana memprosesnya (Controller). Dalam implementasinya kebanyakan
+framework dalam aplikasi website adalah berbasis arsitektur MVC. MVC
+memisahkan pengembangan aplikasi berdasarkan komponen utama yang
+membangun sebuah aplikasi seperti manipulasi data, antarmuka pengguna, dan
+bagian yang menjadi kontrol dalam sebuah aplikasi.
+Bagian dari MVC yaitu sebagai berikut :
+1. Model, Model mewakili struktur data. Biasanya model berisi fungsi-fungsi
+yang
+
+membantu seseorang dalam pengelolaan
+
+basis
+
+data
+
+seperti
+
+memasukkan data ke basis data, pembaruan data dan lain-lain.
+2. View, View adalah bagian yang mengatur tampilan ke pengguna. Bisa di
+katakan berupa halaman web.
+3. Controller, Controller merupakan bagian yang menjembatani model dan
+view. Controller berisi skrip-skrip php yang berfungsi untuk memproses
+suatu data dan mengirimkannya ke halaman web.
+Dengan menggunakan metode MVC maka aplikasi akan lebih mudah
+untuk dirawat dan dikembangkan. Untuk memahami metode pengembangan
+aplikasi menggunakan MVC diperlukan pengetahuan tentang pemrograman
+berorientasi objek (Object Oriented Programming).
+Jenis MVC pada website :
+1. Server Side MVC, Server Side MVC biasa terjadi pada aplikasi web
+tradisional, yang tidak melibatkan client side seperti Javascript, Java applet,
+Flash, dan lain-lain. Server Side MVC menyerahkan keseluruhan proses
+
+bisnis pada server, aplikasi pada sisi pengguna hanya dapat menerima. MVC
+jenis ini kadang-kadang disebut juga dengan nama Thin Client.
+2. Mixed Client Side and Server Side MVC, Pada Mixed Client Side and
+Server Side MVC 1 client tidak menggunakan model sebagai jembatan
+untuk melakukan komunikasi pada server, dibandingkan dengan Server Side
+MVC, arsitektur ini memiliki tingkat kompleksitas yang lebih tinggi karena
+lebih banyak komponen yang terlibat. Untuk selanjutnya arsitektur ini
+disebut, dengan Mixed MVC 1. Pada Mixed Client Side and Server Side
+MVC 2, client menggunakan model sebagai jembatan untuk melakukan
+komunikasi pada server, dibandingkan dengan arsitektur MVC yang lain,
+arsitektur ini memiliki tingkat kompleksitas yang paling tinggi karena lebih
+banyak komponen yang terlibat, sehingga membutuhkan sumber daya yang
+lebih besar pula. Untuk selanjutnya arsitektur ini disebut dengan Mixed
+MVC 2.
+3. Rich Internet Application MVC, Application MVC Rich Internet
+Application (RIA) disebut juga dengan nama Fat Client, merupakan aplikasi
+web yang memiliki kemampuan dan fungsi hampir seperti aplikasi desktop.
+RIA pada sisi client, memiliki mesin untuk mengambil data yang berada
+pada server, sehingga pada client terdapat bagian MVC sendiri dan hanya
+membutuhkan bagian model pada sisi server.
+2.9
+
+Adobe Flash CS3
+Adobe Flash (dahulu bernama Macromedia Flash) adalah salah satu
+
+perangkat lunak komputer yang merupakan produk unggulan Adobe Systems.
+Adobe Flash digunakan untuk membuat gambar vektor maupun animasi gambar
+tersebut. Berkas yang dihasilkan dari perangkat lunak ini mempunyai file
+extension .swf dan dapat diputar di penjelajah web yang telah dipasangi Adobe
+Flash Player. Flash menggunakan bahasa pemrograman bernama ActionScript
+yang muncul pertama kalinya pada Flash 5.
+
+Sebelum tahun 2005, Flash dirilis oleh Macromedia. Flash 1.0 diluncurkan
+pada tahun 1996 setelah Macromedia membeli program animasi vektor bernama
+FutureSplash. Versi terakhir yang diluncurkan di pasaran dengan menggunakan
+nama 'Macromedia' adalah Macromedia Flash 8. Pada tanggal 3 Desember 2005
+Adobe Systems mengakuisisi Macromedia dan seluruh produknya, sehingga nama
+Macromedia Flash berubah menjadi Adobe Flash.
+Adobe Flash merupakan sebuah program yang didesain khusus oleh Adobe
+dan program aplikasi standar authoring tool professional yang digunakan untuk
+membuat animasi dan bitmap yang sangat menarik untuk keperluan pembangunan
+situs web yang interaktif dan dinamis. Flash didesain dengan kemampuan untuk
+membuat animasi 2 dimensi yang handal dan ringan sehingga flash banyak
+digunakan untuk membangun dan memberikan efek animasi pada website, CD
+Interaktif dan yang lainnya. Selain itu aplikasi ini juga dapat digunakan untuk
+membuat animasi logo, movie, game, pembuatan navigasi pada situs web, tombol
+animasi, banner, menu interaktif, interaktif form isian, e-card, screen saver dan
+pembuatan aplikasi-aplikasi web lainnya. Dalam Flash, terdapat teknik-teknik
+membuat animasi, fasilitas action script, filter, custom easing dan dapat
+memasukkan video lengkap dengan fasilitas playback FLV. Keunggulan yang
+dimiliki oleh Flash ini adalah ia mampu diberikan sedikit code pemograman baik
+yang berjalan sendiri untuk mengatur animasi yang ada didalamnya atau
+digunakan untuk berkomunikasi dengan program lain seperti HTML, PHP, dan
+Database dengan pendekatan XML, dapat dikolaborasikan dengan web, karena
+mempunyai keunggulan antara lain kecil dalam ukuran file outputnya.
+Actionscript adalah bahasa pemrograman yang ada di Flash. Jadi selain bisa
+menggambar
+
+dan
+
+animasi,
+
+Flash
+
+juga
+
+mempunyai
+
+kemampuan
+
+untuk
+
+pemrograman.
+Kelebihan dan Kemampuan Flash
+1.
+
+Merupakan teknologi animasi web yang paling populer saat ini sehingga
+
+2.
+3.
+
+banyak didukung oleh berbagai pihak.
+Ukuran file yang kecil dengan kualitas yang baik.
+Kebutuhan Hardware yang tidak tinggi.
+
+4.
+
+Dapat membuat website, cd-interaktif, animasi web, animasi kartun,
+kartu elektronik, iklan TV, banner di web, presentasi cantik, membuat
+
+5.
+
+permainan (game), aplikasi web dan handphone.
+Dapat ditampilkan di banyak media seperti Web, CD-ROM, VCD, DVD,
+Televisi, Handphone dan PDA.
+
+

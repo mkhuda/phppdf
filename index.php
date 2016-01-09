@@ -12,15 +12,15 @@
 	## By Mkhuda
 	if(isset($_FILES['files'])){
 		$uploaddir = 'tmp/';
-		$temp = explode(".", $_FILES["file"]["name"]);
+		$temp = explode(".", $_FILES["files"]["name"]);
 
 		# rename file into unique microtime;
 
 		$newfilename = round(microtime(true)) . '.' . end($temp);
-		if(move_uploaded_file($_FILES['files']['tmp_name'], $uploaddir.basename($newfilename.'pdf'))) {
+		if(move_uploaded_file($_FILES['files']['tmp_name'], $uploaddir.basename($newfilename))) {
 
 			# make pdf and txt filename
-			$filepdf = $newfilename.'pdf';
+			$filepdf = $newfilename;
 			$filetxt = $newfilename.'txt';
 
 			# command line (linux only)
