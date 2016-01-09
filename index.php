@@ -24,7 +24,7 @@
 			$filetxt = $newfilename.'txt';
 
 			# command line (linux only)
-			$c = 'pdftotext /var/www/html/pdf/tmp/'.$filepdf.' /var/www/html/pdf/tmp/'.$filetxt;
+			$c = 'pdftotext /var/www/html/phppdf/tmp/'.$filepdf.' /var/www/html/phppdf/tmp/'.$filetxt;
 			
 			# execute the command
 			exec($c,$output,$return);
